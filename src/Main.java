@@ -21,6 +21,16 @@ public class Main {
             System.out.print(tab5[i] + " ");
         }
 
+        System.out.print("\n");
+
+
+        for (double val: tab5
+             ) {
+            val += 0.2;
+            System.out.print(val + " ");
+
+        }
+
         
     }
 }
