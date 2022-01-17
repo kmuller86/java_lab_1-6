@@ -38,7 +38,7 @@ public class Main {
 
         System.out.print("\npodaj liczbe z przcinkiem: ");
         float zmienna = scan.nextFloat();
-
+        /* mialo być else if() */
         if(zmienna < 1 && zmienna > -1){
             System.out.print("mozna to latwo na procent zamienic...");
         }else{
